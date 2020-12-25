@@ -3,6 +3,7 @@
 {% block content %}
     <div class="post">
         {% if post.published_date %}
+        <span class="user">{{ post.author }}</span>
             <div class="date">
                 {{ post.published_date }}
             </div>
